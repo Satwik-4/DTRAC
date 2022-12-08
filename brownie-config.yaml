@@ -1,0 +1,26 @@
+compiler:
+  evm_version: null
+  solc:
+    version: null
+    optimizer:
+      enabled: true
+      runs: 200
+
+dotenv: .env
+
+wallets:
+  from_key: ${PRIVATE_KEY}
+  from_key_1: ${PRIVATE_KEY_1}
+
+networks:
+  development:
+    verify: False
+
+  ropsten:
+    verify: True
+
+  ganache-local:
+    verify: False
+
+  goerli:
+    verify: True
