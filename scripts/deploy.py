@@ -4,6 +4,7 @@ from brownie import Issue, Opening, Params, Request, Verify, G, BN256G2, network
 def deploy():
 
     account = get_account()
+    
     G_deploy = G.deploy({"from": account})#''', publish_source = config["networks"][network.show_active()]["verify"]'''
     BN256G2_deploy = BN256G2.deploy({"from": account})#''', publish_source = config["networks"][network.show_active()]["verify"]'''
     
