@@ -1,13 +1,5 @@
 from scripts.helpful_scripts import get_account
-
 from brownie import Issue, Opening, Params, Request, Verify, G, BN256G2, network, config
-
-from eth_account import Account
-from eth_account.signers.local import LocalAccount
-from web3.middleware import construct_sign_and_send_raw_middleware
-
-from web3 import Web3
-
 
 def deploy():
 
