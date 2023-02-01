@@ -1,2 +1,3 @@
 # DTRAC
 ## A decentralized threshold revocable anonymous credential scheme (DTRAC) is proposed as a practical and privacy-aware authentication framework over blockchain, which provides decentralized issuance of credentials, allowing a threshold number of validators to be corrupt. DTRAC enables a single credential to be presented to a service provider in the multi-certifier model and allows anonymity revocation using the concept of threshold opening.
+### Implementation of a use case called “Privacy Preserving Loan Application” over the Ethereum blockchain for testing the protocol on a testnet (Test Network) 
